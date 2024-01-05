@@ -20,7 +20,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	compileOnly("org.springframework.boot:spring-boot-devtools") // 재시작 없이 자동 빌드
+	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 }
 
 tasks.named('test') {
