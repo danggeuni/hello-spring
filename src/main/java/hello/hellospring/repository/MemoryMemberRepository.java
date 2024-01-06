@@ -5,7 +5,6 @@ import hello.hellospring.domain.Member;
 import java.util.*;
 
 public class MemoryMemberRepository implements MemberRepository {
-
 //    값 저장할 map 컬렉션
     private static Map<Long, Member> store = new HashMap<>();
 //    아이디로 사용할 counter
